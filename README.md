@@ -213,7 +213,7 @@ python -m yolox.tools.eval -n  yolox-s -c yolox_s.pth -b 1 -d 1 --conf 0.001 --f
 * Converting darknet or yolov5 datasets to COCO format for YOLOX: [YOLO2COCO](https://github.com/RapidAI/YOLO2COCO) from [Daniel](https://github.com/znsoftm)
 
 ## Cite YOLOX
-If you use YOLOX in your research, please cite our work by using the following BibTeX entry:
+If anyone use YOLOX in their research, please cite their work by using the following BibTeX entry:
 
 ```latex
  @article{yolox2021,
