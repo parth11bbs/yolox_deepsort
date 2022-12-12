@@ -55,7 +55,7 @@ def vis_track(img, outputs):
 
         # pts = {'1': deque(), '2': deque()}
 
-        center = (int((x0 + x1)/2). int((y0 + y1)/2))
+        center = (int((x0 + x1)/2), int((y0 + y1)/2))
         pts[id].append(center)
 
         # drawing a circle
