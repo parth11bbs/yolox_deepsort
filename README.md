@@ -16,11 +16,7 @@ This repo is an implementation of PyTorch version YOLOX, there is also a [MegEng
 * 【2021/07/26】 We now support [MegEngine](https://github.com/Megvii-BaseDetection/YOLOX/tree/main/demo/MegEngine) deployment.
 * 【2021/07/20】 We have released our technical report on [Arxiv](https://arxiv.org/abs/2107.08430).
 
-## Comming soon
-- [ ] YOLOX-P6 and larger model.
-- [ ] Objects365 pretrain.
-- [ ] Transformer modules.
-- [ ] More features in need.
+
 
 ## Benchmark
 
@@ -217,7 +213,7 @@ python -m yolox.tools.eval -n  yolox-s -c yolox_s.pth -b 1 -d 1 --conf 0.001 --f
 * Converting darknet or yolov5 datasets to COCO format for YOLOX: [YOLO2COCO](https://github.com/RapidAI/YOLO2COCO) from [Daniel](https://github.com/znsoftm)
 
 ## Cite YOLOX
-If you use YOLOX in your research, please cite our work by using the following BibTeX entry:
+If anyone use YOLOX in their research, please cite their work by using the following BibTeX entry:
 
 ```latex
  @article{yolox2021,
